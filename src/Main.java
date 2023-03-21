@@ -26,7 +26,8 @@ public class Main {
             System.out.println(result);
 
         } else if (input.contains("*")) {
-            System.out.println("*");
+            long result = Mul.mul(input);
+            System.out.println(result);
 
         } else if (input.contains("/")) {
             System.out.println("/");
