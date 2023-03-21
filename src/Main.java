@@ -22,7 +22,8 @@ public class Main {
             System.out.println(result);
 
         } else if (input.contains("-")) {
-            System.out.println("-");
+            long result = Sub.sub(input);
+            System.out.println(result);
 
         } else if (input.contains("*")) {
             System.out.println("*");
